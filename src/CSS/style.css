@@ -62,8 +62,11 @@ a:hover{
   left: 50%;
   transform: translate(-50%,-50%);
   border-radius: 10px;
-  overflow-y: scroll;
   overflow-x: hidden;
+  overflow-y: scroll;
+}
+.listcard::-webkit-scrollbar {
+  background-color: transparent;
 }
 .listitems{
   color: #197278;
@@ -85,6 +88,7 @@ a:hover{
   text-align: center;
   display: inline-block;
   transform: translateY(-19%);
+  cursor: pointer;
 }
 
 
@@ -129,6 +133,7 @@ input[type=text]{
   top: 50%;
   left: 62%;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 #addspam{
   font-size: 18px;
@@ -153,6 +158,7 @@ input[type=text]{
   top: 50%;
   right: 0%;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 #clearspam{
   font-family: Rockwell, sans-serif;
