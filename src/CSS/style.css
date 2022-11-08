@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  background-color: #EDDDD4;
+  padding-bottom: 50px;
+}
+
+header{
+  background-color: #C44536;
+  height: 50vh;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+}
+h1{
+  color: #EDDDD4;
+  font-family: Rockwell, sans-serif;
+  font-size: 115px;
+  font-weight: 400;
+}
+.more{
+  color: #EDDDD4;
+  border-bottom: 2px solid #EDDDD4;
+  font-size: 12px;
+  position: absolute;
+  bottom: 3%;
+  left: 0%;
+}
+p{
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+a{
+  text-decoration: none;
+  color: #EDDDD4;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #EDDDD4;
+  border-radius: 5px;
+}
+a:hover{
+  color: #C44536;
+  background-color: #EDDDD4;
+}
+
+
+
+
+
+.listcard{
+  width: 650px;
+  height: 430px;
+  padding: 40px;
+  background-color: #EDDDD4;
+  box-shadow: 25px 25px 10px rgba(10, 10, 10, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.listitems{
+  color: #197278;
+  font-family: "Courier New", sans-serif;
+  font-weight: bold;
+  font-size: 37.4px;
+  margin-bottom: 20px;
+  display: block;
+}
+.done{
+  color: #EDDDD4;
+  background-color: #197278;
+  width: 75px;
+  margin-right: 50px;
+  padding: 2px;
+  border-radius: 8px;
+  font-size: 20px;
+  word-spacing: -5px;
+  text-align: center;
+  display: inline-block;
+  transform: translateY(-19%);
+}
+
+
+
+
+
+.add{
+  background-color: #197278;
+  width: 500px;
+  height: 75px;
+  position: absolute;
+  bottom: 1%;
+  right: 2%;
+  border-radius: 0px 50px 50px 0px;
+}
+input[type=text]{
+  -webkit-appearance: none;
+  color: white;
+  width: 50%;
+  height: 30%;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 3px solid #EDDDD4;
+  border-radius: 0px 0px 2px 0px;
+  outline: none;
+  background-color: transparent;
+  font-family: "Courier New", sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left 2%;
+  transform: translateY(-50%);
+}
+.addbutton{
+  color: #EDDDD4;
+  width: 55px;
+  height: 25px;
+  background-color: #197278;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translateY(-50%);
+}
+#addspam{
+  font-size: 18px;
+  font-family: Rockwell, sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.addbutton:hover{
+  color: #197278;
+  background-color: #EDDDD4;
+}
+.clearbutton{
+  color: white;
+  width: 105px;
+  height: 75px;
+  background-color: #C44536;
+  border-radius: 0px 50px 50px 0px;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+#clearspam{
+  font-family: Rockwell, sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  transform: translateY(-50%);
+}
+.clearbutton:hover{
+  color: #C44536;
+  background-color: white;
+}

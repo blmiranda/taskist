@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <title>DoLis</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    
+    <body onload="get()">
+        <header>
+            <div class="container">
+                <h1>Taskist</h1>
+            </div>
+            
+            <div class="more">
+                <p>Developped by brianlucas - <a href="#">contact</a></p>
+            </div>
+        </header>
+        
+        <main>
+            <div class="listcard">
+            </div>
+            
+            <div class="add">
+                <input type="text" placeholder="Add a task">
+                
+                <div class="addbutton" onclick="add()">
+                    <spam id="addspam">+</spam>
+                </div>
+                
+                <div class="clearbutton" onclick="clearStorage()">
+                    <spam id="clearspam">clear all</spam>
+                </div>
+            </div>
+        </main>
+        
+        <script src="./script.js"></script>
+    </body>
+</html>
